@@ -8,88 +8,116 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./jogos.html">Jogos Históricos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./maioresjogadores.html">Maiores jogadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./curiosidades.html">Curiosidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html">Fale Conosco</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" />
+                    <button class="btn btn-outline-success" type="submit">pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
     <h1>Maiores Jogadores de Futebol</h1>
-
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Nacionalidade</th>
-                <th>Títulos Importantes</th>
-                <th>Times/Seleção</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Pelé</td>
-                <td>Brasil</td>
-                <td>
-                    3 Copas do Mundo, 6 Brasileiros (Taça Brasil), 2 Libertadores, 2 Mundiais Interclubes
-                </td>
-                <td>Santos, NY Cosmos, Seleção Brasileira</td>
-            </tr>
-            <tr>
-                <td>Maradona</td>
-                <td>Argentina</td>
-                <td>
-                    Copa do Mundo, 2 Campeonatos Italianos, 1 Copa da Uefa, 1 Copa do Rei
-                </td>
-                <td>Barcelona, Napoli, Boca Juniors, Seleção Argentina</td>
-            </tr>
-            <tr>
-                <td>Messi</td>
-                <td>Argentina</td>
-                <td>
-                    Copa do Mundo, Copa América, 4 Champions League, 10 La Liga, 7 Copas do Rei, 3 Mundiais de Clubes, 7
-                    Supercopas da Espanha
-                </td>
-                <td>Barcelona, PSG, Inter Miami, Seleção Argentina</td>
-            </tr>
-            <tr>
-                <td>Cristiano Ronaldo</td>
-                <td>Portugal</td>
-                <td>
-                    Eurocopa, Nations League, 5 Champions League, 3 Premier League, 2 La Liga, 2 Serie A, 4 Mundiais de
-                    Clubes
-                </td>
-                <td>Sporting, Manchester United, Real Madrid, Juventus, Al-Nassr, Seleção Portuguesa</td>
-            </tr>
-            <tr>
-                <td>Zidane</td>
-                <td>França</td>
-                <td>
-                    Copa do Mundo, Eurocopa, Champions League, 2 Campeonatos Italianos, 1 La Liga
-                </td>
-                <td>Bordeaux, Juventus, Real Madrid, Seleção Francesa</td>
-            </tr>
-            <tr>
-                <td>Romário (Romário de Souza Faria)</td>
-                <td>Brasil</td>
-                <td>1× Copa do Mundo (1994); Campeonato Brasileiro (2000); La Liga (1993‑94); 3× Eredivisie; entre
-                    outros</td>
-                <td>Vasco da Gama; PSV Eindhoven; FC Barcelona; Flamengo; Fluminense; Seleção Brasileira</td>
-            </tr>
-            <tr>
-                <td>Ronaldo (Ronaldo Luís Nazário de Lima)</td>
-                <td>Brasil</td>
-                <td>2× Copa do Mundo (1994, 2002); La Liga (2002‑03); Intercontinental Cup (2002); entre outros</td>
-                <td>Cruzeiro; PSV Eindhoven; FC Barcelona; Inter Milan; Real Madrid; Seleção Brasileira</td>
-            </tr>
-            <tr>
-                <td>Ronaldinho Gaúcho (Ronaldo de Assis Moreira)</td>
-                <td>Brasil</td>
-                <td>1× Copa do Mundo (2002); UEFA Champions League (2005‑06); 2× La Liga (2004‑05, 2005‑06); Copa
-                    Libertadores (2013); entre outros</td>
-                <td>Grêmio; Paris Saint‑Germain; FC Barcelona; AC Milan; Atlético Mineiro; Seleção Brasileira</td>
-            </tr>
-            <tr>
-                <td>Kaká (Ricardo Izecson dos Santos Leite)</td>
-                <td>Brasil</td>
-                <td>1× Copa do Mundo (2002); UEFA Champions League (2006‑07); La Liga (2007‑08); entre outros</td>
-                <td>São Paulo FC; AC Milan; Real Madrid; Seleção Brasileira</td>
-            </tr>
-        </tbody>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Nacionalidade</th>
+            <th>Títulos Importantes</th>
+            <th>Times/Seleção</th>
+        </tr>
+        <tr>
+            <td>Pelé (Edson Arantes do Nascimento) </td>
+            <td>Brasil</td>
+            <td>
+                3 Copas do Mundo, 6 Brasileiros (Taça Brasil), 2 Libertadores, 2 Mundiais Interclubes
+            </td>
+            <td>Santos, NY Cosmos, Seleção Brasileira</td>
+        </tr>
+        <tr>
+            <td>Maradona (Diego Armando Maradona)</td>
+            <td>Argentina</td>
+            <td>
+                Copa do Mundo, 2 Campeonatos Italianos, 1 Copa da Uefa, 1 Copa do Rei
+            </td>
+            <td>Barcelona, Napoli, Boca Juniors, Seleção Argentina</td>
+        </tr>
+        <tr>
+            <td>Messi (Lionel Andrés Messi Cuccittini)</td>
+            <td>Argentina</td>
+            <td>
+                Copa do Mundo, Copa América, 4 Champions League, 10 La Liga, 7 Copas do Rei, 3 Mundiais de Clubes, 7
+                Supercopas da Espanha
+            </td>
+            <td>Barcelona, PSG, Inter Miami, Seleção Argentina</td>
+        </tr>
+        <tr>
+            <td>Cristiano Ronaldo (Cristiano Ronaldo dos Santos Aveiro)</td>
+            <td>Portugal</td>
+            <td>
+                Eurocopa, Nations League, 5 Champions League, 3 Premier League, 2 La Liga, 2 Serie A, 4 Mundiais de
+                Clubes
+            </td>
+            <td>Sporting, Manchester United, Real Madrid, Juventus, Al-Nassr, Seleção Portuguesa</td>
+        </tr>
+        <tr>
+            <td>Zidane (Zinedine Yazid Zidane)</td>
+            <td>França</td>
+            <td>
+                Copa do Mundo, Eurocopa, Champions League, 2 Campeonatos Italianos, 1 La Liga
+            </td>
+            <td>Bordeaux, Juventus, Real Madrid, Seleção Francesa</td>
+        </tr>
+        <tr>
+            <td>Romário (Romário de Souza Faria)</td>
+            <td>Brasil</td>
+            <td>1× Copa do Mundo (1994); Campeonato Brasileiro (2000); La Liga (1993‑94); 3× Eredivisie; entre
+                outros</td>
+            <td>Vasco da Gama; PSV Eindhoven; FC Barcelona; Flamengo; Fluminense; Seleção Brasileira</td>
+        </tr>
+        <tr>
+            <td>Ronaldo (Ronaldo Luís Nazário de Lima)</td>
+            <td>Brasil</td>
+            <td>2× Copa do Mundo (1994, 2002); La Liga (2002‑03); Intercontinental Cup (2002); entre outros</td>
+            <td>Cruzeiro; PSV Eindhoven; FC Barcelona; Inter Milan; Real Madrid; Seleção Brasileira</td>
+        </tr>
+        <tr>
+            <td>Ronaldinho Gaúcho (Ronaldo de Assis Moreira)</td>
+            <td>Brasil</td>
+            <td>1× Copa do Mundo (2002); UEFA Champions League (2005‑06); 2× La Liga (2004‑05, 2005‑06); Copa
+                Libertadores (2013); entre outros</td>
+            <td>Grêmio; Paris Saint‑Germain; FC Barcelona; AC Milan; Atlético Mineiro; Seleção Brasileira</td>
+        </tr>
+        <tr>
+            <td>Kaká (Ricardo Izecson dos Santos Leite)</td>
+            <td>Brasil</td>
+            <td>1× Copa do Mundo (2002); UEFA Champions League (2006‑07); La Liga (2007‑08); entre outros</td>
+            <td>São Paulo FC; AC Milan; Real Madrid; Seleção Brasileira</td>
+        </tr>
     </table>
     <div class="container">
         <div class="row">
@@ -99,7 +127,15 @@
                     <div class="card-body">
                         <h5 class="card-title">Pelé</h5>
                         <p class="card-text">
+                            A imagem mostra o Pelé, em pé, sorrindo amplamente.
 
+                            Ele veste uma camisa amarela da seleção brasileira de futebol, com detalhes verdes na gola e
+                            nas mangas e o escudo da CBF no lado esquerdo do peito. Sua postura é descontraída, com uma
+                            das mãos apoiada na cintura, como se estivesse posando informalmente para a foto.
+
+                            Ele tem pele escura, cabelo curto e um semblante alegre e acolhedor. O fundo é simples, de
+                            cor clara, sem elementos que chamem atenção, destacando ainda mais a expressão simpática e a
+                            presença marcante dele na imagem.
                         </p>
                     </div>
                 </div>
@@ -110,95 +146,147 @@
                     <div class="card-body">
                         <h5 class="card-title">Maradona</h5>
                         <p class="card-text">
+                            A foto mostra o Maradona em plena ação dentro de um campo gramado. Ele está no momento exato
+                            de chutar a bola, com a perna direita esticada e a esquerda apoiada no chão.
 
+                            O jogador veste um uniforme da seleção argentina: Camisa listrada em azul-claro e branco,
+                            com mangas curtas, Shorts pretos, Meias brancas com detalhes azuis e Chuteiras pretas.
+
+                            Seu corpo está inclinado ligeiramente para a frente, e os braços estão levantados para
+                            ajudar no equilíbrio durante o movimento do chute.
+
+                            Ele parece muito concentrado, com a expressão focada no lance. O cabelo é escuro, cacheado e
+                            volumoso.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
-                        <img src="./Maiores jogadores/Messi.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Messi</h5>
-                            <p class="card-text">
-                                
-                            </p>
-                        </div>
+                    <img src="./Maiores jogadores/Messi.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Messi</h5>
+                        <p class="card-text">
+                            A imagem mostra o jogador Lionel Messi sentado em arquibancadas vazias de um estádio. Ele
+                            está sorrindo levemente, olhando para a direita.
+
+                            Ele veste uma camisa da seleção de futebol da Argentina, com listras verticais azul-claras e
+                            brancas, detalhes em preto nos ombros e um escudo dourado da AFA no peito.
+
+                            Ele está com barba curta, cabelo castanho-escuro bem aparado e expressão tranquila. Ao
+                            fundo, vê-se parte das arquibancadas em tons claros e algumas estruturas azuis. A iluminação
+                            é suave, dando um ar natural e descontraído à cena.
+
+                        </p>
                     </div>
+                </div>
             </div>
-            </div>
-            <div class="row">
+        </div>
+        <div class="row">
             <div class="col-4">
                 <div class="card" style="width: 18rem;">
                     <img src="./Maiores jogadores/Cristiano Ronaldo.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Cristiano Ronaldo</h5>
                         <p class="card-text">
+                            A imagem mostra o jogador Cristiano Ronaldo em pé, visto do peito para cima, usando um
+                            uniforme esportivo amarelo. Ele tem cabelo curto, escuro e bem penteado, com as laterais
+                            mais baixas. Seu rosto é sério e concentrado, com a expressão neutra, olhando ligeiramente
+                            para a frente ou para cima.
+                            A camisa amarela tem detalhes em azul, incluindo um símbolo redondo no peito e o logotipo de
+                            uma marca esportiva. Ao fundo, tudo está desfocado, mas percebe-se que ele está em um
+                            ambiente iluminado, provavelmente um estádio, com pessoas ou luzes formando um borrão de
+                            cores claras.
+                            A cena transmite a ideia de preparação ou foco antes de algum evento esportivo importante.
 
                         </p>
                     </div>
                 </div>
             </div>
-        <div class="col-4">
+            <div class="col-4">
                 <div class="card" style="width: 18rem;">
                     <img src="./Maiores jogadores/Zidane.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Zidane</h5>
                         <p class="card-text">
+                            A imagem mostra o ex jogador de futebol Zinedine Zidane em plena ação durante uma partida.
+                            Ele tem cabeça raspada, pele clara e expressão muito concentrada. Está correndo ou fazendo
+                            um movimento rápido, com o corpo levemente inclinado para a frente e o braço direito
+                            estendido.
 
+                            Ele veste um uniforme branco com detalhes em azul e vermelho, típico da seleção nacional
+                            francesa. Na parte da frente da camisa há o número 10. Nos braços, ele usa duas faixas de
+                            capitão: uma no braço esquerdo, em azul e vermelho, e outra no direito, em amarelo e azul.
+
+                            O fundo está desfocado, mas é possível notar que ele está em um estádio, com tons
+                            esverdeados e formas que sugerem torcedores ou elementos do campo. A imagem transmite
+                            dinamismo, foco e intensidade, como se ele estivesse no meio de uma jogada importante.
                         </p>
                     </div>
                 </div>
             </div>
-        <div class="col-4">
+            <div class="col-4">
                 <div class="card" style="width: 18rem;">
                     <img src="./Maiores jogadores/Romario.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Romário</h5>
                         <p class="card-text">
-
+                            A imagem mostra o ex-jogador de futebol Romário. Na imagem, ele aparece em pé, usando o
+                            uniforme da seleção brasileira. Ele veste uma camisa amarela com detalhes verdes, o escudo
+                            da seleção ao centro do peito e um número circular estilizado na parte frontal. No braço
+                            esquerdo, há uma faixa de capitão em cor roxa com detalhe verde. O atleta está com as mãos
+                            para trás, em postura firme, e seu semblante demonstra forte emoção, com os olhos marejados
+                            e expressão concentrada. O fundo da imagem está desfocado, indicando a presença de um
+                            estádio ou ambiente esportivo durante uma solenidade ou momento marcante da partida.
                         </p>
                     </div>
                 </div>
             </div>
-            </div>
-            <div class="row">
-        <div class="col-4">
+        </div>
+        <div class="row">
+            <div class="col-4">
                 <div class="card" style="width: 18rem;">
                     <img src="./Maiores jogadores/Ronaldo Fenômeno.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Ronaldo Fenômeno</h5>
                         <p class="card-text">
-
+                            A imagem mostra o ex-jogador Ronaldo Fenômeno. Ele está com o dedo indicador direito
+                            apontado para frente, num gesto de comemoração. Veste a camisa amarela da seleção brasileira
+                            com o número 9, tem o cabelo raspado e uma expressão facial de felicidade, sorrindo. Ao
+                            fundo, desfocadas, estão as arquibancadas lotadas do estádio.
                         </p>
                     </div>
                 </div>
             </div>
-        <div class="col-4">
+            <div class="col-4">
                 <div class="card" style="width: 18rem;">
                     <img src="./Maiores jogadores/RONALDINHO.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Ronaldinho Gaúcho</h5>
                         <p class="card-text">
-
+                            A imagem é um retrato do ex-jogador Ronaldinho Gaúcho sorrindo, com cabelo pra trás, preso
+                            por uma tiara. Ele veste o uniforme listrado em azul e grená do Barcelona. Na mão esquerda,
+                            ele segura um troféu. Com a mão direita, ele faz o gesto de número 1. Ao fundo aparece uma
+                            imagem desfocada, que aparenta ser uma arquibancada lotada, de um estádio de futebol.
                         </p>
                     </div>
                 </div>
             </div>
-        <div class="col-4">
+            <div class="col-4">
                 <div class="card" style="width: 18rem;">
                     <img src="./Maiores jogadores/Kaká.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Kaká</h5>
                         <p class="card-text">
-
+                            A imagem mostra o ex-jogador Kaká, com o polegar direito levantado, fazendo sinal de
+                            "joinha" e sorrindo, como se estivesse cumprimentando alguém. Ele veste a camisa amarela da
+                            seleção brasileira, com o número 10 estampado na altura do peito. O fundo desfocado mostra o
+                            gramado verde e a arquibancada lotada.
                         </p>
                     </div>
                 </div>
             </div>
-       <div class="row">
-
-       </div> 
-            <script src="./bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+        </div>
+        <script src="./bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
